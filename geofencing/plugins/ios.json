@@ -1,0 +1,26 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"DGGeofencing\"><param name=\"ios-package\" value=\"DGGeofencing\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.ogonium.goldberg.dov.geofencing": {
+            "PACKAGE_NAME": "com.ogonium.geofencing"
+        }
+    },
+    "dependent_plugins": {}
+}
